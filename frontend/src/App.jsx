@@ -21,7 +21,7 @@ import './index.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/quizbeat">
       <AuthProvider>
         <GameProvider>
           <div className="app">
