@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment variables (SENSITIVE - never commit!)
+.env
+.env.local
+.env.production
+env
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
